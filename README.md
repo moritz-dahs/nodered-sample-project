@@ -7,7 +7,8 @@ Das Programm misst mithilfe eines Microcontrollers und eines DHT11 Temparatur-Se
 Die Installation besteht aus einem Hardware- und einem Softwareteil. Für den korrekten Programmablauf wird ein MQTT-Broker im Netzwerk vorrausgesetzt. Es gibt viele verschiedene Broker-Softwares - Installation hierzu können im Internet gefunden werden.
 
 ### Hardware
-
+1. Schließen sie den Taster an Pin D6 an
+2. Schließen sie den DHT11 an Pin D5 an 
 
 ### Software
 1. Laden Sie den Quellcode aus diesem github-repository herunter und öffnen sie die .ino-Datei in der Arduino IDE.
